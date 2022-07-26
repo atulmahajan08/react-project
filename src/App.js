@@ -1,16 +1,19 @@
-import React, { Component } from 'react'
-import "./style.css";
-import Button from "./Button"
+import React from 'react'
+import { Component} from 'react';
+// import "./style.css";
+// import Button from "./Button";
+import WebsiteApp from './Components/TemplateWebsite/WebsiteApp';
 
 
 //! by using functional based components
 const App = () => {
     return (
       <div>
-        <h1 style={{ textAlign: 'center' }}>Hello World !!</h1>
+        {/* <h1 style={{ textAlign: 'center' }}>Hello World !!</h1>
         <Button title="App store" />
         <Button title="Play store" />
-        <Button />
+        <Button /> */}
+        <WebsiteApp />
         {/* <button className="button">App Store</button>
           <button className="button">Play Store</button> */}
       </div>
