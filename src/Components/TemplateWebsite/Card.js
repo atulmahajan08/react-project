@@ -15,7 +15,7 @@ const Card = ({title = "Website Template Name", buttonText = "Click Here"}) => {
                     Some quick example text to build on the card title and make up
                     the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-success">{buttonText}</a>
+                <a href="/#" className="btn btn-success">{buttonText}</a>
             </div>
         </div>
     )

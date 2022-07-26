@@ -16,7 +16,7 @@ const HeroMain = () => {
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem,
         incidunt?
       </p>
-      <a className="btn btn-success btn-lg" href="#" role="button"
+      <a className="btn btn-success btn-lg" href="/#" role="button"
         >React is awesome</a
       >
     </div>
