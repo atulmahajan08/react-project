@@ -1,8 +1,8 @@
 import React from 'react'
-import { Component} from 'react';
-// import "./style.css";
+import StateandProps from './Components/StateandProps/StateandProps';
+// import { Component} from 'react';
 // import Button from "./Button";
-import WebsiteApp from './Components/TemplateWebsite/WebsiteApp';
+// import WebsiteApp from './Components/TemplateWebsite/WebsiteApp';
 
 
 //! by using functional based components
@@ -13,7 +13,8 @@ const App = () => {
         <Button title="App store" />
         <Button title="Play store" />
         <Button /> */}
-        <WebsiteApp />
+        {/* <WebsiteApp /> */}
+        <StateandProps />
         {/* <button className="button">App Store</button>
           <button className="button">Play Store</button> */}
       </div>
